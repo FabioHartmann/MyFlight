@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="698a6157-c044-429b-bbce-ee547b384bc5" name="Default Changelist" comment="" />
+    <list default="true" id="698a6157-c044-429b-bbce-ee547b384bc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Contavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VooEscalas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VooVariasEscalas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aeronave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aeronave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aeroporto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aeroporto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Geo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GerenciadorAeronaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GerenciadorAeronaves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GerenciadorAeroportos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GerenciadorAeroportos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GerenciadorRotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GerenciadorRotas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Voo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,14 +26,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1gKqa11zlYr6kApQT8qrFq1hEqs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -50,9 +69,25 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="272" y="22" key="#Project_Structure/0.0.1360.728@0.0.1360.728" timestamp="1597873697576" />
-    <state x="485" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1598304442294">
+    <state x="485" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1599079592450">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="485" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1598304442294" />
+    <state x="485" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1599079592450" />
+    <state x="460" y="119" key="FileChooserDialogImpl" timestamp="1598913566209">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="460" y="119" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1598913566209" />
+    <state x="376" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598475405721">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="376" y="188" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1598475405721" />
+    <state x="336" y="162" key="run.anything.popup" timestamp="1598907607364">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="336" y="162" key="run.anything.popup/0.0.1360.728@0.0.1360.728" timestamp="1598907607364" />
+    <state x="336" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1598908761688">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="336" y="17" width="670" height="676" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1598908761688" />
   </component>
 </project>

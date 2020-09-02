@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class GerenciadorAeroportos {
     private ArrayList<Aeroporto> aeroportos;
@@ -32,5 +33,11 @@ public class GerenciadorAeroportos {
             }
         }
         return aereo;
+    }
+
+    public ArrayList<Aeroporto> ordenaPorNome(){
+        ArrayList<Aeroporto> sorted = aeroportos;
+        sorted.sort(Comparator.comparing((Aeroporto::getNome)));
+        return sorted;
     }
 }

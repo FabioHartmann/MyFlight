@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class GerenciadorRotas {
     private ArrayList<Rota> rotas;
@@ -31,5 +32,11 @@ public class GerenciadorRotas {
             }
         }
         return rotaOrigem;
+    }
+
+    public ArrayList<Rota> ordenaPorNome(){
+        ArrayList<Rota> sorted = rotas;
+        sorted.sort(Comparator.comparing((Rota::getOrigem)));
+        return sorted;
     }
 }

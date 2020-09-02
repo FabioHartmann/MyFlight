@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.concurrent.atomic.AtomicReference;
 
 public class GerenciadorAeronaves {
     private ArrayList<Aeronave> aeronaves;
@@ -30,6 +29,5 @@ public class GerenciadorAeronaves {
         }
         return aero;
     }
-
 
 }

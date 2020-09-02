@@ -13,6 +13,21 @@ public class Voo {
         return datahora;
     }
 
+    public Voo(LocalDateTime datahora, Duration duracao, Rota rota, Status status){
+        this.datahora = datahora;
+        this.duracao = duracao;
+        this.rota = rota;
+        this.status = status;
+    }
+
+    public Voo( Duration duracao, Rota rota, Status status){
+        this.datahora = LocalDateTime.of(2016,8,12, 12,00);
+        this.duracao = duracao;
+        this.rota = rota;
+        this.status = status;
+    }
+
+
     public void setDatahora(LocalDateTime datahora) {
         this.datahora = datahora;
     }
