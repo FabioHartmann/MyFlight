@@ -34,7 +34,7 @@ public class Aeroporto implements Comparable {
     }
 
     @Override
-    public static int compareTo(Object o) {
+    public int compareTo(Object o) {
         return this.compareTo(o);
     }
 }

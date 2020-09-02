@@ -23,10 +23,6 @@ public class Geo {
         this.longitude = longitude;
     }
 
-    public double distanciaAteThis(Geo ponto){
-        return  distancia(ponto, this);
-    }
-
     public static double distancia(Geo pontoA, Geo pontoB) {
         int raioTerra = 6371;
 
