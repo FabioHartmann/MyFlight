@@ -4,7 +4,8 @@ public class Rota implements Comparable {
     private Aeroporto destino;
     private Aeronave aeronave;
 
-    public Rota(CiaAerea cia, Aeroporto origem, Aeroporto destino, Aeronave aeronave) {
+    public Rota(CiaAerea cia, Aeroporto origem, Aeroporto destino, Aeronave aeronave) throws Exception {
+        if(cia == null || origem == null || destino == null || aeronave == null) throw new Exception("Erro ao criar Rota");
         this.cia = cia;
         this.origem = origem;
         this.destino = destino;

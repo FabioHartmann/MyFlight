@@ -4,12 +4,13 @@ public class Aeronave implements Contavel {
     private int capacidade;
     private int totalCias;
 
-    public Aeronave(String codigo, String descricao, int capacidade) {
-        totalCias++;
-        this.codigo = codigo;
-        this.descricao = descricao;
-        this.capacidade = capacidade;
-    }
+    public Aeronave(String codigo, String descricao, int capacidade) throws Exception {
+        if(codigo.isEmpty() || descricao.isEmpty() || capacidade < 1) throw new Exception("Erro ao criar Aeronave");
+            totalCias++;
+            this.codigo = codigo;
+            this.descricao = descricao;
+            this.capacidade = capacidade;
+     }
 
     public String getCodigo() {
         return codigo;
